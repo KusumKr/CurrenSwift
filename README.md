@@ -39,7 +39,9 @@ Click the Get exchange rate button to see the converted amount.
 
 <h1>Glimpse</h1>
 <br>
-![CurrenSwift](https://github.com/user-attachments/assets/41afc7b6-ff85-4dc1-be8d-1758aef36cdc)
+![Screenshot (108)](https://github.com/user-attachments/assets/01cfff9a-abd4-48bc-a1ec-1842ba2b0e4f)
+
+
 
 <br>
 
