@@ -1,7 +1,7 @@
 # CurrenSwift
 <br>
 
-<h2>Welcome to CurrenSwift,a Currency Converter repository!</h2>
+<h3>Welcome to CurrenSwift,a Currency Converter repository!</h3>
 <br>
 <h1>Overview</h1>
 <br>
