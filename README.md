@@ -49,7 +49,7 @@ Click the Get exchange rate button to see the converted amount.
 <br>
 * Kusum Kharayat
 <br>
-* Github:- KusumKr
+* Github:- https://github.com/KusumKr
 
 
 
