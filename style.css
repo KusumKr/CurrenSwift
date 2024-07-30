@@ -21,7 +21,7 @@
     padding: 2rem;
     border-radius: 1rem;
     min-height: 45vh;
-    width: 40vh;
+    width: 45vh;
   }
   h1{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -115,7 +115,7 @@
 
   @media screen and (min-width: 600px) and(max-width:1000px) {
     .container {
-      width: 40vh;
+      width: 45vh;
       padding: 2rem;
       border-radius: 1rem;
       min-height: 45vh;
