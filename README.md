@@ -32,14 +32,17 @@ API:  Uses ExchangeRatesAPI to fetch exchange rates.
 
 <h1>Glimpse<h1>
 <br>
+  
 ![Screenshot 2024-07-30 110817](https://github.com/user-attachments/assets/9010c4b2-1e34-4dfb-b3f5-b8e0e62f9d6f)
 
 
 <h1>Usage</h1>
 <br>
-Enter the amount you want to convert and select the currencies.
+* Enter the amount you want to convert and select the currencies.
 <br>
-Click the Get exchange rate button to see the converted amount.
+* Click the Get exchange rate button to see the converted amount.
+<br>
+* You will get the the desired exchanged currency rate
 <br>
 
 <h1>Author</h1>
