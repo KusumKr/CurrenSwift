@@ -30,6 +30,11 @@ JavaScript:  Logic for fetching exchange rates and performing conversions.
 API:  Uses ExchangeRatesAPI to fetch exchange rates.
 <br>
 
+<h1>Glimpse<h1>
+<br>
+![Screenshot 2024-07-30 110817](https://github.com/user-attachments/assets/9010c4b2-1e34-4dfb-b3f5-b8e0e62f9d6f)
+
+
 <h1>Usage</h1>
 <br>
 Enter the amount you want to convert and select the currencies.
