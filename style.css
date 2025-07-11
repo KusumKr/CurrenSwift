@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-image:url("logo curren swift.jpg");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px,100vw);
+    min-height: 100vh;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 1.2rem 2rem 1.2rem 2rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    width: 420px;
+    margin: 0 auto;
+    display: block;
+  }
+  h1{
+    display: block;
+    margin: 40px auto 24px auto;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 70px;
+    font-weight: 1100;
+    letter-spacing: 2px;
+    color: #fff;
+    text-shadow:
+        0 4px 24px #fff,
+        0 2px 8px #c40404,
+        0 0 16px #ff1a1a,
+        2px 2px 16px #ff4d4d,
+        0 0 32px #c40404,
+        0 0 8px #fff;
+  }
+  h2{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 27px;
+    font-weight: 800;
+    text-shadow: 0px 0px 2px #000;
+  }
+  .amount{
+    font-size: larger;
+  }
+  p{
+    font-size: medium;
+  }
+  
+  form {
+    margin: 2rem 0 1rem 0;
+  }
+  
+  form select,
+  button,
+  input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+  }
+  
+  form input {
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    height: 3rem;
+    padding-left: 0.5rem;
+  }
+  
+  .dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    font-size: medium;
+  }
+  
+  .dropdown i {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .select-container img {
+    max-width: 2rem;
+  }
+  
+  .select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    border-radius: 0.5rem;
+    border: 1px solid lightgray;
+  }
+  
+  .select-container select {
+    font-size: 1rem;
+    width: auto;
+  }
+  
+  .msg {
+    margin: 2rem 0 2rem 0;
+  }
+  
+  form button {
+    height: 3rem;
+    background-color: #6272bb;
+    color: #fff;
+    font-size: 1.15rem;
+    cursor: pointer;
+  }
+
+  @media screen and (min-width: 600px) and(max-width:1000px) {
+    .container {
+      width: 40vh;
+      padding: 2rem;
+      border-radius: 1rem;
+      min-height: 45vh;
+    }
+    h1{
+      font-size: 50px;
+    }
+    h2{
+      font-size: 27px;
+    }
+    .select-container {
+      width: 8rem;
+    }
+
+  }
+
+  /* Responsive styles */
+  @media (max-width: 900px) {
+    .container {
+      width: 90vw;
+      min-width: unset;
+      padding: 1rem;
+    }
+    h1 {
+      font-size: 48px;
+      margin: 32px auto 18px auto;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .container {
+      width: 100vw;
+      min-width: unset;
+      padding: 0.2rem;
+      border-radius: 0.5rem;
+      box-sizing: border-box;
+    }
+    h1 {
+      font-size: 24px;
+      margin: 12px auto 8px auto;
+      letter-spacing: 0.5px;
+      max-width: 98vw;
+      overflow-wrap: break-word;
+      word-break: break-word;
+    }
+    .amount input, form button, form select {
+      font-size: 0.95rem;
+      height: 2.2rem;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .dropdown {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    .select-container {
+      width: 100%;
+    }
+    .chart-section {
+      width: 100%;
+      overflow-x: auto;
+    }
+    #trendChart {
+      width: 100% !important;
+      height: auto !important;
+      max-width: 100vw;
+      min-width: 0;
+      display: block;
+    }
+  }
+
+  .fade-in {
+    animation: fadeIn 0.7s;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  /* Dark mode base styles */
+  body.dark-mode {
+    background-color: #181a1b;
+    color: #f1f1f1;
+  }
+  body.dark-mode .container {
+    background-color: #23272b;
+    color: #f1f1f1;
+  }
+  body.dark-mode h1 {
+    color: #fff;
+    text-shadow: 0 4px 24px #222, 0 2px 8px #c40404, 2px 2px 16px #ff4d4d;
+  }
+  body.dark-mode input, body.dark-mode select, body.dark-mode button {
+    background: #23272b;
+    color: #f1f1f1;
+    border: 1px solid #444;
+  }
+  body.dark-mode .msg {
+    color: #ffb3b3;
+  }
+
+  /* Dark mode toggle button */
+  .dark-mode-toggle {
+    position: fixed;
+    top: 18px;
+    right: 18px;
+    width: 47px;
+    height: 47px;
+    background: #23272b;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 100;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    transition: background 0.2s, color 0.2s;
+    padding: 0;
+  }
+  .dark-mode-toggle:focus {
+    outline: 2px solid #00e5ff;
+  }
+  .dark-mode-icon svg {
+    width: 28px;
+    height: 28px;
+    display: block;
+  }
+  body.dark-mode .dark-mode-toggle {
+    background: #f1f1f1;
+    color: #23272b;
+  }
