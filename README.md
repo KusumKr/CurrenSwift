@@ -41,6 +41,9 @@ CurrenSwift is a web-based currency converter that allows users to quickly conve
 - **Exchange Rates:** Powered by [fawazahmed0/currency-api](https://github.com/fawazahmed0/currency-api) for both real-time and historical rates.
 - **Charting:** Exchange rate trends are visualized using Chart.js.
 
+## Glimpse
+<img width="1337" height="603" alt="image" src="https://github.com/user-attachments/assets/bcc0fdc1-88d6-49ef-b9f3-b0c20d804a96" />
+
 ## 👩‍💻 Author
 - **Kusum Kharayat**  
   [GitHub](https://github.com/KusumKr)
